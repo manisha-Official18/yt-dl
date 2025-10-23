@@ -1,0 +1,17 @@
+{
+  "name": "ytdl",
+  "version": "1.0.0",
+  "description": "YouTube downloader via loader.to (mp3/mp4) for Node.js",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["downloader", "youtube", "loader.to", "mp3", "mp4"],
+  "author": "manaofc",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "latest",
+    "qs": "latest"
+  }
+}
