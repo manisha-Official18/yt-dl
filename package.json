@@ -1,5 +1,5 @@
 {
-  "name": "ytdl",
+  "name": "yt-dl",
   "version": "1.0.0",
   "description": "YouTube downloader via loader.to (mp3/mp4) for Node.js",
   "main": "index.js",

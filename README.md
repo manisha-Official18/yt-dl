@@ -1,4 +1,4 @@
-# YTDL DOWNLOADER
+# YT-DL DOWNLOADER
 
 A Node.js module and WhatsApp bot commands for downloading YouTube videos and songs via [loader.to](https://loader.to), supporting **mp3** and **mp4** formats. Also supports searching YouTube using `yt-search`.
 
