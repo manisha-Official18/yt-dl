@@ -1,6 +1,12 @@
-export interface ytdlsOptions {
-  url: string;
-  format?: "mp3" | "mp4";
-}
+declare module "downloadloder" {
+  interface DownloadResult {
+    title: string;
+    thumbnail: string;
+    downloadUrl: string;
+  }
 
-export declare function ytdl(options: ytdlsOptions): Promise<string>;
+  export function download(
+    url: string,
+    format: string
+  ): Promise<DownloadResult>;
+}

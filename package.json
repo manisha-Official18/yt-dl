@@ -1,17 +1,28 @@
 {
-  "name": "yt-dl",
+  "name": "downloadloder",
   "version": "1.0.0",
-  "description": "YouTube downloader via loader.to (mp3/mp4) for Node.js",
+  "description": "YouTube downloader API using Loader.to backend (yt.savetube.me).",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node test.js"
   },
-  "keywords": ["downloader", "youtube", "loader.to", "mp3", "mp4"],
+  "keywords": [
+    "youtube",
+    "downloader",
+    "ytmp3",
+    "ytmp4",
+    "loader.to",
+    "savetube",
+    "video-download",
+    "audio-download"
+  ],
   "author": "manaofc",
   "license": "MIT",
   "dependencies": {
     "axios": "latest",
-    "qs": "latest"
+    "cheerio": "latest",
+    "express": "latest"
   }
 }
